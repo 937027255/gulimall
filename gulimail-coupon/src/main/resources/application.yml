@@ -1,0 +1,25 @@
+server:
+  port: 7001
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gulimail_cms?serverTimezone=UTC
+    username: root
+    password: 19981012
+
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: gulimail-coupon
+#  mvc:
+#    date-format: yyyy-HH-dd HH:mm:ss
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto

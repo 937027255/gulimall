@@ -22,6 +22,9 @@ ${sys:app.logdir}
 logs/
 *.class
 **/target/
+.mvn/
+mvnw
+mvn.cmd
   
 #package
 *.jar

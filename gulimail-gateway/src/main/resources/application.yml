@@ -1,0 +1,81 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+        - id: qq_route
+          uri: https://www.qq.com
+          predicates:
+            - Query=url,qq
+
+        - id: ware_route
+          uri: lb://gulimail-ware # 注册中心的服务
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*),/$\{segment}
+
+        - id: member_route
+          uri: lb://gulimail-member # 注册中心的服务
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*),/$\{segment}
+
+        - id: product_route
+          uri: lb://gulimail-coupon # 注册中心的服务
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*),/$\{segment}
+
+        - id: product_route
+          uri: lb://gulimail-product # 注册中心的服务
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*),/$\{segment}
+        - id: third_route
+          uri: lb://gulimail-third-party # 注册中心的服务
+          predicates:
+            - Path=/api/thirdparty/**
+          filters:
+            - RewritePath=/api/thirdparty/(?<segment>/?.*),/$\{segment}
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>/?.*), /renren-fast/$\{segment}
+        - id: gulimail_host_route
+          uri: lb://gulimail-product
+          predicates:
+            - Host=gulimail.com,item.gulimail.com
+        - id: gulimail_search_route
+          uri: lb://gulimail-search
+          predicates:
+            - Host=search.gulimail.com
+        - id: gulimail_auth_route
+          uri: lb://gulimail-auth
+          predicates:
+            - Host=auth.gulimail.com
+        - id: gulimail_cart_route
+          uri: lb://gulimail-cart
+          predicates:
+            - Host=cart.gulimail.com
+        - id: gulimail_order_route
+          uri: lb://gulimail-order
+          predicates:
+            - Host=order.gulimail.com
+        - id: gulimail_member_route
+          uri: lb://gulimail-member
+          predicates:
+            - Host=member.gulimail.com
+
+        - id: gulimail_seckill_route
+          uri: lb://gulimail-seckill
+          predicates:
+            - Host=seckill.gulimail.com

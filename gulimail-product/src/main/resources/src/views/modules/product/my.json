@@ -1,0 +1,260 @@
+{
+  "spuName": "macmini M2",
+  "spuDescription": "M2苹果自研芯片",
+  "catalogId": 225,
+  "brandId": 1,
+  "weight": 0.98,
+  "publishStatus": 0,
+  "decript": ["https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/5c0b7ff5-16b0-4c67-847b-3432d99f5fd8_23FF6F37-B179-4811-BCA1-68090AAE8D67.jpeg"],
+  "images": ["https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/29bbc802-4c98-4f29-8b6c-92afbc4749b4_2EF5DC9E-D5FA-4E43-B60E-3CDB1ABB0563.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/c5abc200-8375-4eed-828a-7cd82d8df1e7_9D4E74F8-1FD8-4996-A89C-964F9D81D2F6.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/742bd8b7-85b0-488c-8276-292362ae2c53_9BFC0AA4-5385-4AAA-8E91-A56888BAC2BF.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/b76a92c1-e637-4363-80a7-36886abf8472_9B4BD19A-6895-4418-8A05-AC74F3B8025D.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/7cc66be9-25d0-4315-86e1-32b805ad9c5e_9CBB41A2-3350-4298-A281-5E8D61FBDCC2.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/6d6c5e6a-abed-4b84-8214-405532fbca42_97BB281A-2C8B-4D4B-9619-4332299ABCFF.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/2667820c-4d25-4f43-8e81-e8d844a6c098_94459935-3C6D-40CF-9088-AE32A713C338.jpeg", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/c1454516-4224-4cad-8c7a-6396b9f86ba3_9DD58A86-3972-4408-BEF9-1C214783DA8A.heic", "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/bdee9f61-ae90-4850-8062-d50abd5841d4_94E4DEB4-7B64-4D4B-A886-3A092C3B24CA.jpeg"],
+  "bounds": {
+    "buyBounds": 500,
+    "growBounds": 50
+  },
+  "baseAttrs": [{
+    "attrId": 2,
+    "attrValues": "0.2",
+    "showDesc": 1
+  }, {
+    "attrId": 1,
+    "attrValues": "20",
+    "showDesc": 1
+  }, {
+    "attrId": 5,
+    "attrValues": "144hz",
+    "showDesc": 1
+  }],
+  "skus": [{
+    "attr": [{
+      "attrId": 3,
+      "attrName": "内存",
+      "attrValue": "64G"
+    }, {
+      "attrId": 4,
+      "attrName": "分辨率",
+      "attrValue": "2K"
+    }],
+    "skuName": "macmini M2 64G 2K",
+    "price": "7999",
+    "skuTitle": "macmini M2 64G 2K迷你主机苹果自研芯片",
+    "skuSubtitle": "苹果全家桶",
+    "images": [{
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/c5abc200-8375-4eed-828a-7cd82d8df1e7_9D4E74F8-1FD8-4996-A89C-964F9D81D2F6.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/6d6c5e6a-abed-4b84-8214-405532fbca42_97BB281A-2C8B-4D4B-9619-4332299ABCFF.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }],
+    "descar": ["64G", "2K"],
+    "fullCount": 3,
+    "discount": 0.9,
+    "countStatus": 1,
+    "fullPrice": 7999,
+    "reducePrice": 50,
+    "priceStatus": 1,
+    "memberPrice": [{
+      "id": 2,
+      "name": "铜牌会员",
+      "price": 7899
+    }, {
+      "id": 3,
+      "name": "银牌会员",
+      "price": 7799
+    }]
+  }, {
+    "attr": [{
+      "attrId": 3,
+      "attrName": "内存",
+      "attrValue": "64G"
+    }, {
+      "attrId": 4,
+      "attrName": "分辨率",
+      "attrValue": "4K"
+    }],
+    "skuName": "macmini M2 64G 4K",
+    "price": "9999",
+    "skuTitle": "macmini M2 64G 4K迷你主机苹果自研芯片",
+    "skuSubtitle": "苹果全家桶",
+    "images": [{
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/742bd8b7-85b0-488c-8276-292362ae2c53_9BFC0AA4-5385-4AAA-8E91-A56888BAC2BF.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/2667820c-4d25-4f43-8e81-e8d844a6c098_94459935-3C6D-40CF-9088-AE32A713C338.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }],
+    "descar": ["64G", "4K"],
+    "fullCount": 2,
+    "discount": 0.95,
+    "countStatus": 1,
+    "fullPrice": 9999,
+    "reducePrice": 100,
+    "priceStatus": 1,
+    "memberPrice": [{
+      "id": 2,
+      "name": "铜牌会员",
+      "price": 9899
+    }, {
+      "id": 3,
+      "name": "银牌会员",
+      "price": 9799
+    }]
+  }, {
+    "attr": [{
+      "attrId": 3,
+      "attrName": "内存",
+      "attrValue": "128G"
+    }, {
+      "attrId": 4,
+      "attrName": "分辨率",
+      "attrValue": "2K"
+    }],
+    "skuName": "macmini M2 128G 2K",
+    "price": "12999",
+    "skuTitle": "macmini M2 128G 2K迷你主机苹果自研芯片",
+    "skuSubtitle": "苹果全家桶",
+    "images": [{
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/b76a92c1-e637-4363-80a7-36886abf8472_9B4BD19A-6895-4418-8A05-AC74F3B8025D.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/c1454516-4224-4cad-8c7a-6396b9f86ba3_9DD58A86-3972-4408-BEF9-1C214783DA8A.heic",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }],
+    "descar": ["128G", "2K"],
+    "fullCount": 4,
+    "discount": 0.88,
+    "countStatus": 1,
+    "fullPrice": 10000,
+    "reducePrice": 100,
+    "priceStatus": 1,
+    "memberPrice": [{
+      "id": 2,
+      "name": "铜牌会员",
+      "price": 12899
+    }, {
+      "id": 3,
+      "name": "银牌会员",
+      "price": 12799
+    }]
+  }, {
+    "attr": [{
+      "attrId": 3,
+      "attrName": "内存",
+      "attrValue": "128G"
+    }, {
+      "attrId": 4,
+      "attrName": "分辨率",
+      "attrValue": "4K"
+    }],
+    "skuName": "macmini M2 128G 4K",
+    "price": "17999",
+    "skuTitle": "macmini M2 128G 4K迷你主机苹果自研芯片",
+    "skuSubtitle": "苹果全家桶",
+    "images": [{
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/7cc66be9-25d0-4315-86e1-32b805ad9c5e_9CBB41A2-3350-4298-A281-5E8D61FBDCC2.jpeg",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "",
+      "defaultImg": 0
+    }, {
+      "imgUrl": "https://gulisc-20220618.oss-cn-beijing.aliyuncs.com/2022-07-21/bdee9f61-ae90-4850-8062-d50abd5841d4_94E4DEB4-7B64-4D4B-A886-3A092C3B24CA.jpeg",
+      "defaultImg": 0
+    }],
+    "descar": ["128G", "4K"],
+    "fullCount": 2,
+    "discount": 0.9,
+    "countStatus": 1,
+    "fullPrice": 15999,
+    "reducePrice": 200,
+    "priceStatus": 1,
+    "memberPrice": [{
+      "id": 2,
+      "name": "铜牌会员",
+      "price": 17899
+    }, {
+      "id": 3,
+      "name": "银牌会员",
+      "price": 17699
+    }]
+  }]
+}

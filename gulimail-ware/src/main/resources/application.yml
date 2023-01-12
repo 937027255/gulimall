@@ -1,0 +1,32 @@
+server:
+  port: 11000
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gulimall_wms?serverTimezone=UTC
+    username: root
+    password: 19981012
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  application:
+    name: gulimail-ware
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  rabbitmq:
+    host: 127.0.0.1
+    virtual-host: /
+    listener:
+      simple:
+        acknowledge-mode: manual
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+logging:
+  level:
+    com.atguigu: debug
